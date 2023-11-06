@@ -87,7 +87,7 @@ For the most usage I suggest you create an runpod serverless endpoit deployment 
 Before you proceed with the installation, ensure you have the following prerequisites:
 
 - Python (3.11 or later)
-- `pip3` package manager
+- `pip` package manager
 - `Visual studio Code` - Follow the steps in this link [llama-cpp-prereq-install-instructions](https://github.com/abetlen/llama-cpp-python)
 - `cmake`
 
@@ -103,7 +103,7 @@ deactivate
 ### Step 2: Clone the Repository
 
 ```bash
-git clone https://github.com/morpheuslord/hackbot.git
+git clone https://github.com/nuzDop/hackbot.git
 cd hackbot
 ```
 
@@ -145,7 +145,7 @@ AI_OPTION = "RUNPOD"
 ```
 After that is done run this.
 ```bash
-python3 hackbot.py
+python hackbot.py
 ```
 
 HackBot will display a banner and wait for your input. You can ask cybersecurity-related questions, and HackBot will respond with informative answers. To exit the chat, simply type "quit_bot" in the input prompt.
@@ -180,16 +180,11 @@ Please maintain a clean commit history and adhere to the project's coding guidel
 
 ## AI training
 If anyone with the know-how of training text generation models can help improve the code. For the AI training part, I have prepared a dataset and a working code for the training but I am facing issues with the training part and collaboration on that will be appreciated.
-You can view the dataset on :
-- [HuggingFace](https://huggingface.co/datasets/morpheuslord/cve-llm-training)
-- [GitHub](https://github.com/morpheuslord/CVE-llm_dataset)
-
-The Github version of the dataset is for the OpenAI training and the other is for Llama2-7b from meta. The AIM of the dataset is to try and possibly generate an AI model capable enough to better work with CVE data. If you feel the dataset is lacking then feel free to modify and share your views.
 
 ## Contact
 
-For any questions, feedback, or inquiries related to HackBot, feel free to contact the project maintainer:
+For any questions, feedback, or inquiries related to HackBot, feel free to contact the project owner:
 
 - Email: nuzdop@gmail.com
-- Twitter: [@rjs](https://twitter.com/morpheuslord2)
-- LinkedIn: [ChiranjeeviG](https://www.linkedin.com/in/chiranjeevi-g-naidu/)
+- Instagram: [@rjsut06](https://instagram.com/@rjsut06)
+- LinkedIn: [ChiranjeeviG](https://www.linkedin.com/in/ryan-sutherland-25a8a6205/)
